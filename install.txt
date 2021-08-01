@@ -1,0 +1,10 @@
+pyinstaller --onefile --noconsole --distpath Z:\Режим бурения\Drilling_modes.py
+pyinstaller --onefile --noconsole --distpath Z:\Режим_бурения\ -n Drilling_modes Main.py
+pyinstaller --onefile --noconsole --distpath D:\По_работе_в_БНГФ\Западно-Иркинская_54\Помошник_для_рапорта\ -n Помошник_для_рапорта Main.py
+
+
+
+
+pyuic5 D:\Programming\Python\Goblin_drilling_v.2.2\Lib\site-packages\QtDesigner\Drilling_modes_win.ui -o myLibrary\Drilling_modes_win.py
+
+pyuic5 D:\Programming\Python\Goblin_drilling_v.2.2\Lib\site-packages\QtDesigner\Settings_drilling_modes.ui -o myLibrary\My_pyqt5\Settings_drilling_modes_win.py
